@@ -13,8 +13,10 @@ How It Works
 <li>wordList is initialized as an empty list.</li>
 <li>Each letter from word2 is added into wordList.</li>
 <li>The function loops through each letter in word1:</li>
-    If the letter exists in wordList, it is removed.
-    If it doesn’t exist, an exception is caught, "caught exception" is printed, and the function returns False immediately.
+    <ul>
+        <li>If the letter exists in wordList, it is removed.</li>
+        <li>If it doesn’t exist, an exception is caught, "caught exception" is printed, and the function returns False immediately.</li>
+    </ul>
 <li>After the loop, if wordList is empty, the words are anagrams; otherwise, they are not.</li>
 </ul>
 
