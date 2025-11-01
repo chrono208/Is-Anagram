@@ -2,9 +2,10 @@
 Checks to see if a word is an anagram
 
 <h1>Overview</h1>
-The is_anagram() function checks whether two given words are anagrams of each other.
+The is_anagram() function checks whether two given words are anagrams of each other.<br>
 An anagram means both words contain the same letters in any order and with the same frequency.
-
+<br>
+<br>
 This implementation works by converting one word into a list of its letters, then removing matching letters from that list based on the second word.
 
 <h2>How it works</h2>
