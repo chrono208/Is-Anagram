@@ -1,5 +1,5 @@
 # Is-Anagram
-Checks to see if it's an anagram
+Checks to see if a word is an anagram
 
 <h1>Overview</h1>
 The is_anagram() function checks whether two given words are anagrams of each other.
@@ -21,5 +21,21 @@ How It Works
 </ul>
 
 <h3>Example</h3>
+result = is_anagram("listen", "silent")
+print(result)
 
 <h3>Output</h3>
+['s', 'i', 'l', 'e', 'n', 't']
+0
+True
+
+
+<h3>Example 2</h3>
+result = is_anagram("hello", "world")
+print(result)
+Output:
+
+<h3>Output 2</h3>
+['w', 'o', 'r', 'l', 'd']
+caught exception
+False
